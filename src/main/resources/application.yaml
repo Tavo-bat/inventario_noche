@@ -1,6 +1,6 @@
 spring:
-application:
-  name: inventario_noche
+  application:
+    name: inventario_noche
 
   datasource:
     url: jdbc:sqlserver://localhost:1433;databaseName=inventario_noche;encrypt=true;trustServerCertificate=true
@@ -12,9 +12,6 @@ application:
       hibernate:
         ddl-auto: update
       show-sql: true
-
-
       properties:
-        jpa:
         hibernate:
           format_sql: true

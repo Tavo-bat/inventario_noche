@@ -34,7 +34,7 @@ public class ProductoServiceImpl implements ProductoService {
     }
 
     @Override
-    public void delete(Lond id) {
+    public void delete(Long id) {
         Producto producto = productoRepository.findById(id)
                 .orElseThrow(() ->
                         new RuntimeException("Producto no encontrado"));

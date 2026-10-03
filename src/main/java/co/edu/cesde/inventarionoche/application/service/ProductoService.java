@@ -13,7 +13,7 @@ public interface ProductoService {
 
     Optional<Producto> findById( Long id);
 
-    void delete (Lond id);
+    void delete (Long id);
 
     void update(Producto producto);
 }

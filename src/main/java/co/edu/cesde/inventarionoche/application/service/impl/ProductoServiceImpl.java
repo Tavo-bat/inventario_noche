@@ -1,4 +1,4 @@
-package co.edu.cesde.inventarionoche.application.service.Impl;
+package co.edu.cesde.inventarionoche.application.service.impl;
 
 import co.edu.cesde.inventarionoche.application.service.ProductoService;
 import co.edu.cesde.inventarionoche.domain.model.Producto;

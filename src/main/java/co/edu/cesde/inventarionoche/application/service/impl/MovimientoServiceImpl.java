@@ -1,10 +1,10 @@
-package co.edu.cesde.inventarionoche.application.service.Impl;
+package co.edu.cesde.inventarionoche.application.service.impl;
 
 import co.edu.cesde.inventarionoche.application.service.MovimientoService;
-import co.edu.cesde.inventarionoche.application.service.ProductoService;
+
 import co.edu.cesde.inventarionoche.domain.model.Movimiento;
 import co.edu.cesde.inventarionoche.infrastructure.repository.MovimientoRepository;
-import co.edu.cesde.inventarionoche.infrastructure.repository.ProductoRepository;
+
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -20,8 +20,8 @@ public class MovimientoServiceImpl implements MovimientoService {
     }
 
     @Override
-    public void save(Movimiento moviemiento) {
-    movimientoRepository.save(moviemiento);
+    public void save(Movimiento movimiento) {
+    movimientoRepository.save(movimiento);
     }
 
     @Override
